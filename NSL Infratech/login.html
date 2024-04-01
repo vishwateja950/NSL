@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>NSL infratech</title>
+    <link
+      rel="icon"
+      type="https://nslinfratech.com/wp-content/themes/nslinfratech/assets/images/logo-white.png"
+      href="https://nslinfratech.com/wp-content/themes/nslinfratech/assets/images/logo-white.png"
+    />
+  </head>
+  <body>
+    <div class="logo-cont">
+      <img
+        src="https://nslinfratech.com/wp-content/themes/nslinfratech/assets/images/logo-white.png"
+        class="logozz"
+      />
+      <div class="login-container">
+        <label>Name:</label>
+        <input type="email" id="email" placeholder="Enter your Email" /><br />
+        <label>Password:</label>
+        <input
+          type="password"
+          id="pass"
+          placeholder="Enter your password"
+        /><br />
+        <button class="btn" onclick="login()">Login</button>
+        <p id="error" style="color: red"></p>
+        <br />
+        <a href="">Forgotten password?</a>
+        <hr />
+        <button class="btn2">Create new Accout</button>
+      </div>
+      <a target="_blank" id="changePage"></a>
+    </div>
+
+    <script>
+      let username = document.getElementById("email");
+      let password = document.getElementById("pass");
+      let error = document.getElementById("error");
+      let changePageEl = document.getElementById("changePage");
+
+      function login() {
+        let user = username.value;
+        let pass = password.value;
+
+        if (user == "nslinfratech" && pass == "tech123") {
+          window.location.assign("home.html");
+        } else {
+          error.textContent = "username and password not matched";
+        }
+      }
+    </script>
+  </body>
+</html>

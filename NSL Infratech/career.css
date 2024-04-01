@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: gray;
+  width: 100%;
+
+  margin-top: -2px;
+  z-index: 1;
+}
+nav li {
+  display: inline;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(88, 85, 85);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(231, 229, 228);
+}
+.career-img {
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+}
+input {
+  width: 20vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.career-inputs {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-evenly;
+  margin: 20px;
+}
+.career-head {
+  padding-left: 20px;
+  padding-top: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 20px;
+  width: 16vw;
+}
+select {
+  width: 20vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.card10-cart1 hr {
+  border: 1px solid black;
+  width: 75vw;
+  margin-top: 60px;
+}
+.card10-cart1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card10-cart2 ul {
+  width: 400px;
+}
+.card10-cart2 i {
+  color: red;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.card10-cart2 li {
+  padding-bottom: 10px;
+  line-height: 1.9;
+  list-style-type: none;
+}
+.icons i {
+  font-size: 30px;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.zzz {
+  margin-left: 40px;
+}
+
+.card10-cart2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.card11 hr {
+  color: red;
+  border: 1px solid red;
+  width: 90%;
+  margin-left: 5%;
+}
+.card11 h3 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.iii {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main10 {
+  margin-top: 30px;
+}
+.career-cont2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+}
+.career-cont3 h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  padding: 20px;
+}
+.ba {
+  border-radius: 10px;
+  width: 17vw;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+hr {
+  border: 1px solid black;
+}
+.Latest-head {
+  margin-left: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.ww {
+  border-radius: 6px;
+  margin: 10px;
+  padding: 10px;
+}
+.career-cont4 {
+  margin-right: -90px;
+}

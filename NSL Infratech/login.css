@@ -1,0 +1,63 @@
+.logo-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 3px solid black;
+}
+
+.login-container {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  padding: 40px;
+  border-radius: 20px;
+  flex-basis: 40%;
+  min-width: 250px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.logozz {
+  background-color: #bdbebb;
+  padding: 20px;
+  margin: 20px;
+  width: 20vw;
+  border-radius: 10px;
+}
+
+.login-container input {
+  margin: 10px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.btn {
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  background-color: #1877f2;
+  color: aliceblue;
+  border-color: aliceblue;
+  border-radius: 5px;
+}
+.btn2 {
+  background-color: #36a420;
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  border-color: aliceblue;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
